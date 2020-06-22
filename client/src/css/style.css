@@ -1,0 +1,132 @@
+.navbar-nav { 
+	margin-left: auto; 
+	padding: 10px;
+	margin-top: 10px;
+} 
+.myNavbar{
+	width: 70%;
+	padding: 10px;
+	margin: auto;
+	padding: 10px;
+}
+#header {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+#body{
+	background-image: url('../bb.jpg');
+	background-repeat:repeat;
+}
+.logo{
+	display: flex;
+	justify-content: center;
+}
+.logo .websiteName{
+	color: white;
+	font-style: italic;
+	font-family: "Brush Script MT", "Brush Script Std", cursive;
+}
+#search{
+    background-color: transparent;
+    border:0px;
+	width: 0px;
+	transition: width 0.5s;
+	color: white;
+}
+#search:hover{
+    width:200px;
+    
+}
+
+#filter{
+	display: flex;
+	flex-direction: row;
+	width: 70%;
+	justify-content:space-between;
+	margin: auto;
+	padding: 20px;
+}
+#filter .posts{
+	color: rgba(255, 255, 255, 0.5);
+}
+#icon{
+	color: white;
+}
+#icon:active ~ #search{
+    width:200px;
+}
+.postsContainer{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	/* margin: auto;
+	width: 70%; */
+}
+#post {
+	border: 1px solid rgba(255, 255, 255, 0.5);
+	display: flex;
+	height: 385px;
+}
+#post img {
+	width: 100%;
+	height: 383px;
+
+}
+#post #img{
+	width: 50%;
+}
+#postdetail {
+	width: 50%;
+	padding: 40px;
+}
+.postwrap
+{
+	padding: 15px;
+	width: 70%;
+}
+#login{
+	width: 70%;
+	background-color: white;
+	border-radius: 10px;
+	margin: auto;
+	height: 300px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+#register{
+	width: 40%;
+	background-color: white;
+	border-radius: 10px;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.loginForm{
+	padding: 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.registerForm{
+	padding: 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.loginForm input{
+	width: 500px;
+}
+.registerForm .form-group input{
+	width: 430px;
+}
+#register .row {
+	padding: 10px;
+}
